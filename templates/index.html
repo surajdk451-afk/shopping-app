@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Store</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>Welcome to Shopping Store</h1>
+
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
+
+    {% for product in products %}
+    <tr>
+        <td>{{ product.name }}</td>
+        <td>₹{{ product.price }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
