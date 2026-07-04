@@ -25,4 +25,4 @@ jobs:
 
       - name: Verify Flask Application
         run: |
-          python -c "import app
+          python -c "import app"
