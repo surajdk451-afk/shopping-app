@@ -26,3 +26,7 @@ jobs:
       - name: Verify Flask Application
         run: |
           python -c "import app"
+
+      - name: Run Unit Tests
+        run: |
+          python -m pytest
