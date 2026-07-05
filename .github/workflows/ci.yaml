@@ -3,7 +3,7 @@ name: Shopping App CI Pipeline
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
